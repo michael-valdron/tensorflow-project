@@ -1,0 +1,15 @@
+[project]
+name = "tensorflow-project"
+authors = [{name = "Michael Valdron", email = "mvaldron@redhat.com"}]
+description = "A sample tensorflow project."
+readme = "README.md"
+version = "0.1.0"
+requires-python = ">=3.11,<3.12"
+dependencies = [
+    "tensorflow==2.16.1"
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest==8.1.1"
+]
